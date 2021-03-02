@@ -1,0 +1,22 @@
+{
+  "name": "hamfog-aprs-collector",
+  "version": "0.0.1",
+  "description": "Sammelt APRS-Daten über MQTT und schreibt diese in InfluxDB.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "emitter-io": "^1.39.0",
+    "flat": "^5.0.2",
+    "influxdb-v2": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aprs",
+    "hamfog"
+  ],
+  "author": "dm4tze",
+  "license": "ISC"
+}
